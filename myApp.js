@@ -8,7 +8,6 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true
 });
 
-const mongoose = require('mongoose');
 
 // 1. Define the personSchema
 const personSchema = new mongoose.Schema({
